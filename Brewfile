@@ -15,6 +15,7 @@ install ant
 install apple-gcc42
 install asciidoc
 install autoconf
+install cabal-install
 install cairo
 install cmake
 install cocot
@@ -37,7 +38,6 @@ install gobject-introspection
 install graphviz
 install grep
 install harfbuzz
-install haskell-platform
 install hub
 install icu4c
 install imagemagick
