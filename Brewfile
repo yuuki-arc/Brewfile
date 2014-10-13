@@ -1,11 +1,14 @@
 # prepare
-tap phinze/homebrew-cask 
+tap phinze/homebrew-cask
 tap homebrew/versions
-tap caskroom/homebrew-versions 
-update 
+tap caskroom/homebrew-versions
+tap caskroom/versions
+tap rcmdnk/file
+update
 
 # homebrew
 install brew-cask
+install brew-file
 install android-sdk
 install android-ndk
 install ant
@@ -18,6 +21,7 @@ install cocot
 install cscope
 install docbook
 install docbook-xsl
+install doxygen
 install fontconfig
 install fontforge
 install freetype
@@ -30,16 +34,20 @@ install gmp
 install gnu-getopt
 install go
 install gobject-introspection
+install graphviz
 install grep
 install harfbuzz
 install haskell-platform
 install hub
 install icu4c
+install imagemagick
+install jenkins
 install jpeg
 install libevent
 install libffi
 install libpng
 install libtiff
+install libtool
 install macvim
 install mecab
 install mecab-ipadic
@@ -60,6 +68,7 @@ install redis
 install rrdtool
 install ruby-build
 install sqlite
+install the_silver_searcher
 install ag
 install tig
 install tmux
@@ -77,13 +86,15 @@ install zsh-syntax-highlighting
 cask install alfred
 cask install bartender
 cask install dropbox
-cask install firefox
+cask install firefox-ja
 cask install bartender
 cask install sourcetree
 cask install iterm2
 cask install appcleaner
 cask install evernote
 cask install filezilla
+cask install gimp
+cask install texturepacker
 
 #cask (install specify)
 cask install --caskroom=/Applications google-chrome
