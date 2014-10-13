@@ -8,7 +8,7 @@ tap rcmdnk/file
 
 # homebrew
 install brew-cask
-#install brew-file
+install brew-file
 install android-sdk
 install android-ndk
 install ant
