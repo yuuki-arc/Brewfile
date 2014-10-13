@@ -9,7 +9,6 @@ cask install bartender
 cask install dropbox
 cask install evernote
 cask install filezilla
-cask install firefox
 cask install gimp
 cask install google-chrome
 cask install iterm2
@@ -57,7 +56,7 @@ install freetype
 install gdbm
 install gettext
 install ghc
-install git --without-completions --without-completions
+install git --without-completions
 install glib
 install gmp
 install gnu-getopt
@@ -98,10 +97,10 @@ install tig
 install tmux
 install tree
 install v8
-install vim --with-perl
+install vim
 install wget
 install xmlto
 install xz
-install zsh --disable-etcdir --disable-etcdir
+install zsh --disable-etcdir
 install zsh-completions
 install zsh-syntax-highlighting
