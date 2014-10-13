@@ -96,7 +96,7 @@ cask install gimp
 cask install texturepacker
 
 #cask (install specify)
-cask install google-chrome --caskroom=/Applications
+cask install google-chrome -g
 
 #cask (require password)
 cask install karabiner
