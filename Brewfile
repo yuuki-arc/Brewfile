@@ -1,18 +1,46 @@
-# prepare
-tap homebrew/versions
-tap caskroom/cask
-tap caskroom/versions
-tap caskroom/homebrew-versions
-tap rcmdnk/file
-#update
+# tap repositories and their packages
 
-# homebrew
+## caskroom/cask
+tap caskroom/cask
 install brew-cask
-install brew-file
-install android-sdk
-install android-ndk
-install ant
+cask install alfred
+cask install appcleaner
+cask install bartender
+cask install dropbox
+cask install evernote
+cask install filezilla
+cask install firefox
+cask install gimp
+cask install google-chrome
+cask install iterm2
+cask install karabiner
+cask install sourcetree
+cask install texturepacker
+cask install totalfinder
+cask install vagrant
+cask install xquartz
+
+## caskroom/versions
+tap caskroom/versions
+cask install firefox-ja
+
+## homebrew/dupes
+tap homebrew/dupes
 install apple-gcc42
+install grep
+
+## homebrew/versions
+tap homebrew/versions
+install mysql55
+
+## rcmdnk/file
+tap rcmdnk/file
+install brew-file
+
+# Other Homebrew packages
+install android-ndk
+install android-sdk
+install ant
 install asciidoc
 install autoconf
 install cabal-install
@@ -29,14 +57,13 @@ install freetype
 install gdbm
 install gettext
 install ghc
-install git
+install git --without-completions --without-completions
 install glib
 install gmp
 install gnu-getopt
 install go
 install gobject-introspection
 install graphviz
-install grep
 install harfbuzz
 install hub
 install icu4c
@@ -50,9 +77,7 @@ install libtiff
 install libtool
 install macvim
 install mecab
-#install mecab-ipadic
 install memcached
-install mysql55
 install nkf
 install openssl
 install pango
@@ -66,40 +91,17 @@ install readline
 install reattach-to-user-namespace
 install redis
 install rrdtool
-install ruby-build
+install ruby-build --HEAD
 install sqlite
 install the_silver_searcher
 install tig
 install tmux
 install tree
 install v8
-install vim
+install vim --with-perl
 install wget
 install xmlto
 install xz
-install zsh
+install zsh --disable-etcdir --disable-etcdir
 install zsh-completions
 install zsh-syntax-highlighting
-
-#cask
-cask install alfred
-cask install bartender
-cask install dropbox
-cask install firefox-ja
-cask install bartender
-cask install sourcetree
-cask install iterm2
-cask install appcleaner
-cask install evernote
-cask install filezilla
-cask install gimp
-cask install texturepacker
-
-#cask (install specify)
-cask install google-chrome -g
-
-#cask (require password)
-cask install karabiner
-cask install totalfinder
-cask install vagrant
-cask install xquartz
