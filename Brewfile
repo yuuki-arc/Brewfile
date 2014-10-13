@@ -1,14 +1,14 @@
 # prepare
-tap phinze/homebrew-cask
 tap homebrew/versions
-tap caskroom/homebrew-versions
+tap caskroom/cask
 tap caskroom/versions
+tap caskroom/homebrew-versions
 tap rcmdnk/file
-update
+#update
 
 # homebrew
 install brew-cask
-install brew-file
+#install brew-file
 install android-sdk
 install android-ndk
 install ant
@@ -50,7 +50,7 @@ install libtiff
 install libtool
 install macvim
 install mecab
-install mecab-ipadic
+#install mecab-ipadic
 install memcached
 install mysql55
 install nkf
@@ -69,7 +69,6 @@ install rrdtool
 install ruby-build
 install sqlite
 install the_silver_searcher
-install ag
 install tig
 install tmux
 install tree
@@ -97,7 +96,7 @@ cask install gimp
 cask install texturepacker
 
 #cask (install specify)
-cask install --caskroom=/Applications google-chrome
+cask install google-chrome --caskroom=/Applications
 
 #cask (require password)
 cask install karabiner
