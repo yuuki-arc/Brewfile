@@ -32,6 +32,10 @@ install grep
 tap homebrew/versions
 install mysql55
 
+## josegonzalez/php
+tap josegonzalez/php
+install php-build
+
 ## rcmdnk/file
 tap rcmdnk/file
 install brew-file
@@ -75,8 +79,10 @@ install libpng
 install libtiff
 install libtool
 install macvim
+install mcrypt
 install mecab
 install memcached
+install mhash
 install nkf
 install openssl
 install pango
@@ -86,6 +92,7 @@ install pkg-config
 install python
 install rbenv
 install rbenv-gemset
+install re2c
 install readline
 install reattach-to-user-namespace
 install redis
