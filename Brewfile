@@ -5,7 +5,9 @@ tap caskroom/cask
 install brew-cask
 cask install alfred
 cask install appcleaner
+cask install atom
 cask install bartender
+cask install boxer
 cask install dropbox
 cask install evernote
 cask install filezilla
@@ -34,7 +36,7 @@ install mysql55
 
 ## josegonzalez/php
 tap josegonzalez/php
-install php-build
+install php-build --HEAD
 
 ## rcmdnk/file
 tap rcmdnk/file
@@ -60,7 +62,8 @@ install freetype
 install gdbm
 install gettext
 install ghc
-install git --without-completions
+install ghi
+install git --without-completions --without-completions
 install glib
 install gmp
 install gnu-getopt
@@ -108,6 +111,6 @@ install vim
 install wget
 install xmlto
 install xz
-install zsh --disable-etcdir
+install zsh --disable-etcdir --disable-etcdir
 install zsh-completions
 install zsh-syntax-highlighting
