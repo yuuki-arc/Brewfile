@@ -13,6 +13,7 @@ cask install evernote
 cask install filezilla
 cask install gimp
 cask install google-chrome
+cask install inkscape
 cask install iterm2
 cask install karabiner
 cask install sourcetree
@@ -63,7 +64,8 @@ install gdbm
 install gettext
 install ghc
 install ghi
-install git --without-completions --without-completions
+install ghostscript
+install git --without-completions
 install glib
 install gmp
 install gnu-getopt
@@ -74,6 +76,7 @@ install harfbuzz
 install hub
 install icu4c
 install imagemagick
+install jbig2dec
 install jenkins
 install jpeg
 install libevent
@@ -81,6 +84,7 @@ install libffi
 install libpng
 install libtiff
 install libtool
+install little-cms2
 install macvim
 install mcrypt
 install mecab
@@ -111,6 +115,6 @@ install vim
 install wget
 install xmlto
 install xz
-install zsh --disable-etcdir --disable-etcdir
+install zsh --disable-etcdir
 install zsh-completions
 install zsh-syntax-highlighting
