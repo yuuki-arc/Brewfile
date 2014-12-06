@@ -16,6 +16,7 @@ cask install google-chrome
 cask install inkscape
 cask install iterm2
 cask install karabiner
+cask install slack
 cask install sourcetree
 cask install texturepacker
 cask install totalfinder
