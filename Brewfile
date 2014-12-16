@@ -91,6 +91,7 @@ install mcrypt
 install mecab
 install memcached
 install mhash
+install mongodb
 install nkf
 install openssl
 install pango
