@@ -13,7 +13,7 @@ cask install dropbox
 cask install evernote
 cask install filezilla
 cask install gimp
-cask install google-chrome -g
+cask install google-chrome
 cask install inkscape
 cask install iterm2
 cask install karabiner
