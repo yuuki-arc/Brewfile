@@ -1,3 +1,4 @@
+
 # tap repositories and their packages
 
 ## caskroom/cask
@@ -55,6 +56,7 @@ install cairo
 install cmake
 install cocot
 install cscope
+install czmq
 install docbook
 install docbook-xsl
 install doxygen
@@ -117,6 +119,11 @@ install vim
 install wget
 install xmlto
 install xz
+install zeromq
 install zsh --disable-etcdir
 install zsh-completions
 install zsh-syntax-highlighting
+
+# App Store applications
+appstore 1Password
+appstore Xcode
