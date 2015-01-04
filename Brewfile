@@ -115,7 +115,7 @@ install tig
 install tmux
 install tree
 install v8
-install vim
+install vim --with-python --with-ruby --with-perl
 install wget
 install xmlto
 install xz
