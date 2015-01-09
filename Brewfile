@@ -8,6 +8,7 @@ cask install alfred
 cask install appcleaner
 cask install atom
 cask install bartender
+cask install box-sync
 cask install boxer
 cask install dropbox
 cask install evernote
@@ -68,7 +69,7 @@ install gettext
 install ghc
 install ghi
 install ghostscript
-install git --without-completions
+install git --without-completions --without-completions
 install glib
 install gmp
 install gnu-getopt
@@ -126,4 +127,43 @@ install zsh-syntax-highlighting
 
 # App Store applications
 appstore 1Password
+appstore Airmail 2
+appstore Astro
+appstore ATOKPad
+appstore Caffeine
+appstore CheatSheet
+appstore Coda 2
+appstore CompareMerge
+appstore DaisyDisk
+appstore Dash
+appstore DeskConnect
+appstore Desktop Calendar Plus
+appstore Fantastical
+appstore GarageBand
+appstore Growl
+appstore Gyazo
+appstore iMovie
+appstore Install OS X Mavericks
+appstore iPhoto
+appstore Keynote
+appstore Kindle
+appstore LINE
+appstore MenuTab Pro for Facebook
+appstore Microsoft Remote Desktop
+appstore Numbers
+appstore OmniFocus
+appstore Pages
+appstore Photodesk
+appstore Pocket
+appstore PopClip
+appstore ReadKit
+appstore Reeder
+appstore Skitch
+appstore SoraAnnai
+appstore Tab Notes Free
+appstore The Unarchiver
+appstore Translate Tab
+appstore Transmit
+appstore Tweetbot
+appstore WiFi Signal
 appstore Xcode
