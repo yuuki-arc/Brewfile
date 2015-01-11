@@ -25,14 +25,17 @@ cask install genymotion
 cask install gimp
 cask install google-chrome
 cask install google-japanese-ime
+cask install growlnotify
 cask install inkscape
 cask install istat-menus
 cask install iterm2
 cask install karabiner
 cask install licecap
+cask install mplayerx
 cask install onyx
 cask install parallels-desktop
 cask install scapple
+cask install send-to-kindle
 cask install sequel-pro
 cask install shuttle
 cask install skitch
@@ -157,16 +160,11 @@ appstore 1Password
 appstore Airmail 2
 appstore Astro
 appstore ATOKPad
-appstore Caffeine
-appstore CheatSheet
 appstore CompareMerge
 appstore DaisyDisk
-appstore Dash
 appstore DeskConnect
 appstore Evernote
-appstore Fantastical
 appstore GarageBand
-appstore Growl
 appstore iMovie
 appstore iPhoto
 appstore Keynote
@@ -174,7 +172,6 @@ appstore Kindle
 appstore LINE
 appstore MenuTab Pro for Facebook
 appstore Microsoft Remote Desktop
-appstore MPlayerX
 appstore Network Strength
 appstore Numbers
 appstore OmniFocus
@@ -183,9 +180,7 @@ appstore Photodesk
 appstore Pocket
 appstore PopClip
 appstore QuickCast
-appstore Skitch
 appstore SoraAnnai
-appstore The Unarchiver
 appstore Transmit
 appstore Tweetbot
 appstore WiFi Signal
