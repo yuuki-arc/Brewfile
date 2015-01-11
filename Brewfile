@@ -15,7 +15,6 @@ cask install caffeine
 cask install cheatsheet
 cask install clipmenu
 cask install coccinellida
-cask install dash
 cask install diffmerge
 cask install dropbox
 cask install evernote
