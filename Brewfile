@@ -48,7 +48,6 @@ cask install texturepacker
 cask install the-unarchiver
 cask install totalfinder
 cask install vagrant
-cask install whatsapp-pocket
 cask install x-mirage
 cask install xquartz
 cask install xtrafinder
