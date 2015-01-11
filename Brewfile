@@ -4,29 +4,55 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
+cask install airdroid
 cask install alfred
 cask install appcleaner
 cask install atom
 cask install bartender
 cask install box-sync
 cask install boxer
+cask install caffeine
+cask install cheatsheet
+cask install clipmenu
+cask install coccinellida
+cask install dash
+cask install diffmerge
 cask install dropbox
 cask install evernote
+cask install fantastical
 cask install filezilla
+cask install genymotion
 cask install gimp
 cask install google-chrome
+cask install google-japanese-ime
 cask install inkscape
+cask install istat-menus
 cask install iterm2
 cask install karabiner
+cask install licecap
+cask install onyx
+cask install parallels-desktop
+cask install scapple
+cask install sequel-pro
+cask install shuttle
+cask install skitch
+cask install skype
 cask install slack
+cask install slate
 cask install sourcetree
+cask install sublime-text
 cask install texturepacker
+cask install the-unarchiver
 cask install totalfinder
 cask install vagrant
+cask install whatsapp-pocket
+cask install x-mirage
 cask install xquartz
+cask install xtrafinder
 
 ## caskroom/versions
 tap caskroom/versions
+cask install adobe-reader-ja
 cask install firefox-ja
 
 ## homebrew/dupes
@@ -92,6 +118,7 @@ install little-cms2
 install macvim
 install mcrypt
 install mecab
+install mecab-ipadic
 install memcached
 install mhash
 install mongodb
@@ -128,7 +155,6 @@ install zsh-syntax-highlighting
 # App Store applications
 appstore 1Password
 appstore Airmail 2
-appstore Astro for Facebook Messenger
 appstore Astro
 appstore ATOKPad
 appstore Caffeine
