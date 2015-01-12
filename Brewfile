@@ -19,6 +19,7 @@ cask install diffmerge
 cask install dropbox
 cask install evernote
 cask install filezilla
+cask install fluid
 cask install genymotion
 cask install gimp
 cask install google-chrome
@@ -44,6 +45,7 @@ cask install sublime-text
 cask install texturepacker
 cask install the-unarchiver
 cask install vagrant
+cask install virtualbox
 cask install whatsapp-pocket
 cask install x-mirage
 cask install xquartz
@@ -137,6 +139,7 @@ install redis
 install rrdtool
 install ruby-build --HEAD
 install sqlite
+install terminal-notifier
 install the_silver_searcher
 install tig
 install tmux
@@ -163,6 +166,7 @@ appstore DeskConnect
 appstore Evernote
 appstore Fantastical
 appstore GarageBand
+appstore Growl
 appstore iMovie
 appstore iPhoto
 appstore Keynote
