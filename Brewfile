@@ -31,7 +31,6 @@ cask install karabiner
 cask install licecap
 cask install mplayerx
 cask install onyx
-cask install parallels-desktop
 cask install scapple
 cask install send-to-kindle
 cask install sequel-pro
@@ -44,7 +43,6 @@ cask install sourcetree
 cask install sublime-text
 cask install texturepacker
 cask install the-unarchiver
-cask install totalfinder
 cask install vagrant
 cask install whatsapp-pocket
 cask install x-mirage
