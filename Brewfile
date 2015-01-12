@@ -18,7 +18,6 @@ cask install coccinellida
 cask install diffmerge
 cask install dropbox
 cask install evernote
-cask install fantastical
 cask install filezilla
 cask install genymotion
 cask install gimp
@@ -164,6 +163,7 @@ appstore DaisyDisk
 appstore Dash
 appstore DeskConnect
 appstore Evernote
+appstore Fantastical
 appstore GarageBand
 appstore iMovie
 appstore iPhoto
