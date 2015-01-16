@@ -4,6 +4,7 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
+cask install adobe-air
 cask install airdroid
 cask install alfred
 cask install appcleaner
@@ -28,6 +29,7 @@ cask install growlnotify
 cask install inkscape
 cask install istat-menus
 cask install iterm2
+cask install java
 cask install karabiner
 cask install licecap
 cask install mplayerx
@@ -73,7 +75,11 @@ install php-build --HEAD
 tap rcmdnk/file
 install brew-file
 
+## sanemat/font
+tap sanemat/font
+
 # Other Homebrew packages
+install --powerline --vim-powerline ricty
 install android-ndk
 install android-sdk
 install ant
