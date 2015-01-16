@@ -77,9 +77,9 @@ install brew-file
 
 ## sanemat/font
 tap sanemat/font
+install ricty --powerline --vim-powerline
 
 # Other Homebrew packages
-install --powerline --vim-powerline ricty
 install android-ndk
 install android-sdk
 install ant
@@ -165,20 +165,22 @@ appstore 1Password
 appstore Airmail 2
 appstore Astro
 appstore ATOKPad
-appstore Coda 2
 appstore CompareMerge
 appstore DaisyDisk
 appstore Dash
 appstore DeskConnect
+appstore Evernote
 appstore Fantastical
+appstore GarageBand
 appstore Growl
-appstore Gyazo
 appstore iMovie
 appstore iPhoto
 appstore Keynote
+appstore Kindle
 appstore LINE
 appstore MenuTab Pro for Facebook
 appstore Microsoft Remote Desktop
+appstore Network Strength
 appstore Numbers
 appstore OmniFocus
 appstore Pages
@@ -186,9 +188,6 @@ appstore Photodesk
 appstore Pocket
 appstore PopClip
 appstore QuickCast
-appstore ReadKit
-appstore Reeder
-appstore Skitch
 appstore SoraAnnai
 appstore Transmit
 appstore Tweetbot
