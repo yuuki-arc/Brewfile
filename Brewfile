@@ -26,6 +26,7 @@ cask install gimp
 cask install google-chrome
 cask install google-japanese-ime
 cask install growlnotify
+cask install gyazo
 cask install inkscape
 cask install istat-menus
 cask install iterm2
@@ -46,6 +47,7 @@ cask install sourcetree
 cask install sublime-text
 cask install texturepacker
 cask install the-unarchiver
+cask install timemachinescheduler
 cask install vagrant
 cask install virtualbox
 cask install whatsapp-pocket
