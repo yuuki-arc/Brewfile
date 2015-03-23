@@ -27,6 +27,7 @@ cask install google-chrome
 cask install google-japanese-ime
 cask install growlnotify
 cask install gyazo
+cask install ifunbox
 cask install inkscape
 cask install istat-menus
 cask install iterm2
@@ -47,6 +48,7 @@ cask install sourcetree
 cask install sublime-text
 cask install texturepacker
 cask install the-unarchiver
+cask install timemachineeditor
 cask install timemachinescheduler
 cask install vagrant
 cask install virtualbox
@@ -104,7 +106,7 @@ install gettext
 install ghc
 install ghi
 install ghostscript
-install git --without-completions
+install git --without-completions --without-completions
 install glib
 install gmp
 install gnu-getopt
