@@ -49,7 +49,6 @@ cask install sublime-text
 cask install texturepacker
 cask install the-unarchiver
 cask install timemachineeditor
-cask install timemachinescheduler
 cask install vagrant
 cask install virtualbox
 cask install whatsapp-pocket
