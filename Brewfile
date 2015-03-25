@@ -172,7 +172,6 @@ appstore CompareMerge
 appstore DaisyDisk
 appstore Dash
 appstore DeskConnect
-appstore Evernote
 appstore Fantastical
 appstore GarageBand
 appstore Growl
