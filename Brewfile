@@ -105,7 +105,7 @@ install gettext
 install ghc
 install ghi
 install ghostscript
-install git --without-completions --without-completions
+install git --without-completions
 install glib
 install gmp
 install gnu-getopt
