@@ -30,7 +30,6 @@ cask install gyazo
 cask install ifunbox
 cask install inkscape
 cask install istat-menus
-cask install iterm2
 cask install java
 cask install karabiner
 cask install licecap
@@ -60,6 +59,7 @@ cask install xtrafinder
 tap caskroom/versions
 cask install adobe-reader-ja
 cask install firefox-ja
+cask install iterm2-beta
 
 ## homebrew/dupes
 tap homebrew/dupes
