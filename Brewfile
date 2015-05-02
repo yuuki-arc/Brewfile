@@ -5,7 +5,7 @@
 tap caskroom/cask
 install brew-cask
 cask install adobe-air
-#cask install airdroid
+cask install airdroid
 cask install alfred
 cask install appcleaner
 cask install atom
@@ -106,7 +106,7 @@ install gettext
 install ghc
 install ghi
 install ghostscript
-install git --without-completions
+install git --without-completions --without-completions --without-completions
 install glib
 install gmp
 install gnu-getopt
@@ -192,6 +192,7 @@ appstore Pocket
 appstore PopClip
 appstore QuickCast
 appstore SoraAnnai
+appstore Sunrise
 appstore Transmit
 appstore Tweetbot
 appstore WiFi Signal
