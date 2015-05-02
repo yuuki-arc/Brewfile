@@ -5,7 +5,7 @@
 tap caskroom/cask
 install brew-cask
 cask install adobe-air
-cask install airdroid
+#cask install airdroid
 cask install alfred
 cask install appcleaner
 cask install atom
@@ -33,6 +33,7 @@ cask install istat-menus
 cask install java
 cask install karabiner
 cask install licecap
+cask install messenger
 cask install mplayerx
 cask install onyx
 cask install scapple
