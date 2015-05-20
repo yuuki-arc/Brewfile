@@ -18,6 +18,7 @@ cask install clipmenu
 cask install coccinellida
 cask install diffmerge
 cask install dropbox
+cask install eclipse-java
 cask install evernote
 cask install filezilla
 cask install fluid
@@ -61,6 +62,7 @@ tap caskroom/versions
 cask install adobe-reader-ja
 cask install firefox-ja
 cask install iterm2-beta
+cask install sublime-text3
 
 ## homebrew/dupes
 tap homebrew/dupes
@@ -91,6 +93,7 @@ install asciidoc
 install autoconf
 install cabal-install
 install cairo
+install ccache
 install cmake
 install cocot
 install cscope
@@ -106,7 +109,7 @@ install gettext
 install ghc
 install ghi
 install ghostscript
-install git --without-completions --without-completions --without-completions
+install git --without-completions --without-completions
 install glib
 install gmp
 install gnu-getopt
