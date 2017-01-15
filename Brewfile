@@ -1,202 +1,169 @@
 
 # tap repositories and their packages
 
-## caskroom/cask
 tap caskroom/cask
-install brew-cask
-cask install adobe-air
-cask install airdroid
-cask install alfred
-cask install appcleaner
-cask install atom
-cask install bartender
-cask install box-sync
-cask install boxer
-cask install caffeine
-cask install cheatsheet
-cask install clipmenu
-cask install coccinellida
-cask install diffmerge
-cask install dropbox
-cask install eclipse-java
-cask install evernote
-cask install filezilla
-cask install fluid
-cask install genymotion
-cask install gimp
-cask install google-chrome
-cask install google-japanese-ime
-cask install growlnotify
-cask install gyazo
-cask install ifunbox
-cask install inkscape
-cask install istat-menus
-cask install java
-cask install karabiner
-cask install licecap
-cask install messenger
-cask install mplayerx
-cask install onyx
-cask install scapple
-cask install send-to-kindle
-cask install sequel-pro
-cask install shuttle
-cask install skitch
-cask install skype
-cask install slack
-cask install slate
-cask install sourcetree
-cask install sublime-text
-cask install texturepacker
-cask install the-unarchiver
-cask install timemachineeditor
-cask install vagrant
-cask install virtualbox
-cask install whatsapp-pocket
-cask install x-mirage
-cask install xquartz
-cask install xtrafinder
+cask adobe-air
+cask airdroid
+cask alfred
+cask appcleaner
+cask atom
+cask bartender
+cask box-sync
+cask boxer
+cask caffeine
+cask cheatsheet
+cask clipmenu
+cask coccinellida
+cask diffmerge
+cask dropbox
+cask eclipse-java
+cask evernote
+cask filezilla
+cask firefox
+cask fluid
+cask genymotion
+cask gimp
+cask google-chrome
+cask google-japanese-ime
+cask growlnotify
+cask gyazo
+cask ifunbox
+cask inkscape
+cask istat-menus
+cask java
+cask karabiner
+cask licecap
+cask messenger
+cask mplayerx
+cask onyx
+cask scapple
+cask send-to-kindle
+cask sequel-pro
+cask shuttle
+cask skitch
+cask skype
+cask slack
+cask slate
+cask sourcetree
+cask sublime-text
+cask texturepacker
+cask the-unarchiver
+cask timemachineeditor
+cask vagrant
+cask virtualbox
+cask x-mirage
+cask xquartz
+cask xtrafinder
 
-## caskroom/versions
 tap caskroom/versions
-cask install adobe-reader-ja
-cask install firefox-ja
-cask install iterm2-beta
-cask install sublime-text3
+cask iterm2-beta
 
-## homebrew/dupes
 tap homebrew/dupes
-install apple-gcc42
-install grep
+brew apple-gcc42
+brew grep
 
-## homebrew/versions
 tap homebrew/versions
-install mysql55
+brew mysql55
 
-## josegonzalez/php
 tap josegonzalez/php
-install php-build --HEAD
+brew php-build --HEAD
 
-## rcmdnk/file
 tap rcmdnk/file
-install brew-file
+brew brew-file
 
-## sanemat/font
 tap sanemat/font
-install ricty --powerline --vim-powerline
+brew ricty --powerline --vim-powerline
 
 # Other Homebrew packages
-install android-ndk
-install android-sdk
-install ant
-install asciidoc
-install autoconf
-install cabal-install
-install cairo
-install ccache
-install cmake
-install cocot
-install cscope
-install czmq
-install docbook
-install docbook-xsl
-install doxygen
-install fontconfig
-install fontforge
-install freetype
-install gdbm
-install gettext
-install ghc
-install ghi
-install ghostscript
-install git --without-completions --without-completions
-install glib
-install gmp
-install gnu-getopt
-install go
-install gobject-introspection
-install graphviz
-install harfbuzz
-install hub
-install icu4c
-install imagemagick
-install jbig2dec
-install jenkins
-install jpeg
-install libevent
-install libffi
-install libpng
-install libtiff
-install libtool
-install little-cms2
-install macvim
-install mcrypt
-install mecab
-install mecab-ipadic
-install memcached
-install mhash
-install mongodb
-install nkf
-install openssl
-install pango
-install pcre
-install pixman
-install pkg-config
-install python
-install rbenv
-install rbenv-gemset
-install re2c
-install readline
-install reattach-to-user-namespace
-install redis
-install rrdtool
-install ruby-build --HEAD
-install sqlite
-install terminal-notifier
-install the_silver_searcher
-install tig
-install tmux
-install tree
-install v8
-install vim
-install wget
-install xmlto
-install xz
-install zeromq
-install zsh --disable-etcdir
-install zsh-completions
-install zsh-syntax-highlighting
+brew android-ndk
+brew android-sdk
+brew ant
+brew asciidoc
+brew autoconf
+brew cabal-install
+brew cairo
+brew ccache
+brew cmake
+brew cocot
+brew cscope
+brew czmq
+brew docbook
+brew docbook-xsl
+brew doxygen
+brew fontconfig
+brew fontforge
+brew freetype
+brew gdbm
+brew gettext
+brew ghc
+brew ghi
+brew ghostscript
+brew git --without-completions --without-completions
+brew glib
+brew gmp
+brew gnu-getopt
+brew go
+brew gobject-introspection
+brew graphviz
+brew harfbuzz
+brew hub
+brew icu4c
+brew imagemagick
+brew jbig2dec
+brew jenkins
+brew jpeg
+brew libevent
+brew libffi
+brew libpng
+brew libtiff
+brew libtool
+brew little-cms2
+brew macvim
+brew mcrypt
+brew mecab
+brew mecab-ipadic
+brew memcached
+brew mhash
+brew mongodb
+brew nkf
+brew openssl
+brew pango
+brew pcre
+brew perl
+brew pixman
+brew pkg-config
+brew python
+brew rbenv
+brew rbenv-gemset
+brew re2c
+brew readline
+brew reattach-to-user-namespace
+brew redis
+brew rrdtool
+brew ruby
+brew ruby-build --HEAD
+brew sqlite
+brew terminal-notifier
+brew the_silver_searcher
+brew tig
+brew tmux
+brew tree
+brew v8
+brew vim --with-python --with-ruby --with-perl
+brew wget
+brew xmlto
+brew xz
+brew zeromq
+brew zsh --disable-etcdir
+brew zsh-completions
+brew zsh-syntax-highlighting
+
+# Cask applications
+cask sublime-text
 
 # App Store applications
-appstore 1Password
-appstore Airmail 2
-appstore Astro
-appstore ATOKPad
-appstore CompareMerge
-appstore DaisyDisk
-appstore Dash
-appstore DeskConnect
-appstore Fantastical
-appstore GarageBand
-appstore Growl
-appstore iMovie
-appstore iPhoto
-appstore Keynote
-appstore Kindle
-appstore LINE
-appstore MenuTab Pro for Facebook
-appstore Microsoft Remote Desktop
-appstore Network Strength
-appstore Numbers
-appstore OmniFocus
-appstore Pages
-appstore Photodesk
-appstore Pocket
-appstore PopClip
-appstore QuickCast
-appstore SoraAnnai
-appstore Sunrise
-appstore Transmit
-appstore Tweetbot
-appstore WiFi Signal
-appstore Xcode
+appstore 443987910 1Password
+appstore 443987910 1Password
+appstore 918858936 Airmail 3
+appstore 726828968 Astro for Facebook Messenger
+appstore 460883588 ATOKPad
