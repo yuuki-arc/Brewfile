@@ -37,6 +37,7 @@ cask messenger
 cask mplayerx
 cask onyx
 cask scapple
+cask scroll-reverser
 cask send-to-kindle
 cask sequel-pro
 cask shuttle
@@ -63,7 +64,6 @@ brew apple-gcc42
 brew grep
 
 tap homebrew/versions
-brew mysql55
 
 tap josegonzalez/php
 brew php-build --HEAD
@@ -75,6 +75,7 @@ tap sanemat/font
 brew ricty --powerline --vim-powerline
 
 # Other Homebrew packages
+brew mysql55
 brew android-ndk
 brew android-sdk
 brew ant
