@@ -73,7 +73,6 @@ cask x-mirage
 cask xquartz
 
 tap caskroom/versions
-cask java7
 
 tap homebrew/boneyard
 
@@ -229,6 +228,9 @@ brew powerline
 brew subversion18
 brew android-ndk
 brew android-sdk
+
+# Cask applications
+cask java7
 
 # App Store applications
 appstore 443987910 1Password (6.5.3)
