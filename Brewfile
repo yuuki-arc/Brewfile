@@ -164,7 +164,7 @@ brew android-ndk
 brew android-sdk
 #brew apple-gcc42
 #brew mongodb
-brew mysql@5.5
+#brew mysql@5.5
 brew openssl
 brew php-build --HEAD
 brew php71
