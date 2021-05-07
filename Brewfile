@@ -137,7 +137,7 @@ tap homebrew/bundle
 #tap homebrew/completions
 tap homebrew/homebrew-core
 
-tap homebrew/dupes
+#tap homebrew/dupes
 
 tap homebrew/php
 
