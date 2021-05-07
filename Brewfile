@@ -129,7 +129,8 @@ brew xvid
 brew xz
 brew zeromq
 brew zlib
-brew zsh --without-etcdir
+#brew zsh --without-etcdir
+brew zsh 
 brew zsh-completions
 brew zsh-syntax-highlighting
 
