@@ -157,7 +157,7 @@ brew brew-file
 
 tap sanemat/font
 #brew ricty --powerline --vim-powerline
-brew ricty --with-powerline --vim-powerline
+brew ricty --with-powerline
 
 # Other Homebrew packages
 brew android-ndk
