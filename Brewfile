@@ -167,8 +167,8 @@ brew android-sdk
 #brew mysql@5.5
 brew openssl
 #brew php-build --HEAD
-brew php71
-brew php71-redis
+#brew php71
+#brew php71-redis
 brew powerline
 brew python
 brew subversion18
