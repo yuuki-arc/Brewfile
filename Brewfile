@@ -139,7 +139,7 @@ tap homebrew/homebrew-core
 
 #tap homebrew/dupes
 
-tap homebrew/php
+#tap homebrew/php
 
 tap homebrew/versions
 
