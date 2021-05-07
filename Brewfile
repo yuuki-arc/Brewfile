@@ -231,8 +231,8 @@ cask svnx
 cask texturepacker
 cask the-unarchiver
 cask timemachineeditor
-cask totalfinder
-cask totalspaces
+#cask totalfinder
+#cask totalspaces
 cask vagrant
 cask virtualbox
 cask visual-studio-code
