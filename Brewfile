@@ -177,7 +177,7 @@ cask atom
 cask bartender
 cask bettertouchtool
 cask box-sync
-cask boxer
+#cask boxer
 cask burn
 cask caffeine
 cask cheatsheet
