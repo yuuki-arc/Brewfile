@@ -163,7 +163,7 @@ brew ricty --with-powerline
 brew android-ndk
 brew android-sdk
 #brew apple-gcc42
-brew mongodb
+#brew mongodb
 brew mysql@5.5
 brew openssl
 brew php-build --HEAD
