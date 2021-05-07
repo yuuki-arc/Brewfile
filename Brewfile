@@ -236,7 +236,7 @@ cask timemachineeditor
 cask vagrant
 cask virtualbox
 cask visual-studio-code
-cask wineskin-winery
+#cask wineskin-winery
 cask wireshark
 cask x-mirage
 cask xquartz
