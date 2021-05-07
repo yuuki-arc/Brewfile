@@ -145,7 +145,8 @@ tap homebrew/homebrew-core
 
 tap argon/mas
 
-tap caskroom/cask
+#tap caskroom/cask
+tap homebrew/cask
 
 tap caskroom/versions
 
