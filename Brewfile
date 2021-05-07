@@ -169,8 +169,8 @@ brew openssl
 #brew php-build --HEAD
 #brew php71
 #brew php71-redis
-brew powerline
-brew python
+#brew powerline
+#brew python
 brew subversion18
 
 # Other Cask applications
