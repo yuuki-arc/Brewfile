@@ -205,7 +205,7 @@ cask ios-console
 cask istat-menus
 cask iterm2
 #cask java
-cask java7
+#cask java7
 cask karabiner
 cask licecap
 cask medis
