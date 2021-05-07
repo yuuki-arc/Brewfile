@@ -43,7 +43,8 @@ brew ghc
 brew ghi
 brew ghostscript
 brew gifsicle
-brew git --without-completions
+#brew git --without-completions
+brew git 
 brew glib
 brew gmp
 brew gnu-getopt
