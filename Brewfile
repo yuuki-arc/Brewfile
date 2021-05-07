@@ -134,7 +134,8 @@ brew zsh-syntax-highlighting
 
 tap homebrew/bundle
 
-tap homebrew/completions
+#tap homebrew/completions
+tap homebrew/homebrew-core
 
 tap homebrew/dupes
 
