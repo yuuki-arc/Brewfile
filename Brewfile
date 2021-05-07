@@ -208,7 +208,7 @@ cask iterm2
 #cask java7
 #cask karabiner
 cask licecap
-cask medis
+#cask medis
 cask messenger
 cask mplayerx
 cask mysimbl
