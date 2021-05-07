@@ -135,20 +135,18 @@ brew zsh-syntax-highlighting
 tap homebrew/bundle
 
 #tap homebrew/completions
-tap homebrew/homebrew-core
-
 #tap homebrew/dupes
-
 #tap homebrew/php
-
 #tap homebrew/versions
+tap homebrew/homebrew-core
 
 tap argon/mas
 
 #tap caskroom/cask
 tap homebrew/cask
 
-tap caskroom/versions
+#tap caskroom/versions
+tap homebrew/cask-versions
 
 tap rcmdnk/file
 brew brew-file
