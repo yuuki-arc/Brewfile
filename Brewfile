@@ -130,7 +130,7 @@ brew zsh --without-etcdir
 brew zsh-completions
 brew zsh-syntax-highlighting
 
-tap homebrew/boneyard
+#tap homebrew/boneyard
 
 tap homebrew/bundle
 
