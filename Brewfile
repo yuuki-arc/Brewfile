@@ -86,7 +86,8 @@ brew mpfr
 brew ncurses
 brew netpbm
 brew nkf
-brew node --with-full-icu
+#brew node --with-full-icu
+brew node
 brew nodebrew
 brew oniguruma
 brew openssl@1.1
