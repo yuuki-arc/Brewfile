@@ -162,7 +162,7 @@ brew ricty --with-powerline
 # Other Homebrew packages
 brew android-ndk
 brew android-sdk
-brew apple-gcc42
+#brew apple-gcc42
 brew mongodb
 brew mysql@5.5
 brew openssl
