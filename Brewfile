@@ -166,7 +166,7 @@ brew android-sdk
 #brew mongodb
 #brew mysql@5.5
 brew openssl
-brew php-build --HEAD
+#brew php-build --HEAD
 brew php71
 brew php71-redis
 brew powerline
