@@ -206,7 +206,7 @@ cask istat-menus
 cask iterm2
 #cask java
 #cask java7
-cask karabiner
+#cask karabiner
 cask licecap
 cask medis
 cask messenger
