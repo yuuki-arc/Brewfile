@@ -216,7 +216,7 @@ cask mysqlworkbench
 cask onyx
 #cask p4merge
 cask postico
-cask rdm
+#cask rdm
 cask remote-desktop-manager
 cask scapple
 cask sequel-pro
