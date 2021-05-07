@@ -214,7 +214,7 @@ cask mplayerx
 #cask mysimbl
 cask mysqlworkbench
 cask onyx
-cask p4merge
+#cask p4merge
 cask postico
 cask rdm
 cask remote-desktop-manager
