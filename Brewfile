@@ -101,7 +101,8 @@ brew rbenv
 brew rbenv-gemset
 brew re2c
 brew readline
-brew reattach-to-user-namespace --with-wrap-pbcopy-and-pbpaste
+#brew reattach-to-user-namespace --with-wrap-pbcopy-and-pbpaste
+brew reattach-to-user-namespace 
 brew redis
 brew rrdtool
 brew ruby
