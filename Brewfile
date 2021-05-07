@@ -141,7 +141,7 @@ tap homebrew/homebrew-core
 
 #tap homebrew/php
 
-tap homebrew/versions
+#tap homebrew/versions
 
 tap argon/mas
 
