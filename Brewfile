@@ -248,12 +248,12 @@ cask xquartz
 
 # App Store applications
 appstore 443987910 1Password (6.5.3)
-appstore 726828968 Astro (1.137)
-appstore 460883588 ATOKPad (2.0.7)
+#appstore 726828968 Astro (1.137)
+#appstore 460883588 ATOKPad (2.0.7)
 appstore 415181149 CalendarFree (2.1.1)
 appstore 478570084 CompareMerge (1.86)
 appstore 411643860 DaisyDisk (4.3.2)
-appstore 467939042 Growl (2.1.3)
+#appstore 467939042 Growl (2.1.3)
 appstore 408981434 iMovie (10.1.4)
 appstore 409183694 Keynote (7.0.5)
 appstore 539883307 LINE (4.11.1)
