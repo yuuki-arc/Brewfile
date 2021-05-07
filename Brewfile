@@ -189,7 +189,7 @@ cask dropbox
 cask eclipse-java
 cask eclipse-php
 cask evernote
-cask filezilla
+#cask filezilla
 cask firefox
 cask flashlight
 cask fluid
