@@ -191,7 +191,7 @@ cask eclipse-php
 cask evernote
 #cask filezilla
 cask firefox
-cask flashlight
+#cask flashlight
 cask fluid
 cask genymotion
 cask gimp
