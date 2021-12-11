@@ -177,8 +177,6 @@ brew speex
 brew sqlite
 brew srt
 brew ssh-copy-id
-brew subversion
-brew subversion@1.8
 brew terminal-notifier
 brew tesseract
 brew the_silver_searcher
