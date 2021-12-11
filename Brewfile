@@ -4,19 +4,13 @@
 tap homebrew/core
 brew ack
 brew ant
-brew aom
 brew apr
 brew apr-util
 brew asciidoc
 brew autoconf
 brew awscli
-brew bdw-gc
-brew berkeley-db
-brew boost
 brew brew-cask-completion
-brew brotli
 brew bzip2
-brew c-ares
 brew cabal-install
 brew cairo
 brew ccache
@@ -28,7 +22,6 @@ brew cowsay
 brew cscope
 brew ctags
 brew czmq
-brew dav1d
 brew direnv
 brew docbook
 brew docbook-xsl
@@ -38,91 +31,50 @@ brew docker-machine
 brew doxygen
 brew ffmpeg
 brew figlet
-brew flac
 brew fontconfig
 brew fontforge
 brew freetype
-brew frei0r
-brew fribidi
 brew fzf
 brew gawk
 brew gd
 brew gdbm
-brew gdk-pixbuf
 brew gettext
 brew ghc
 brew ghi
 brew ghostscript
-brew giflib
 brew gifsicle
-brew git
+#brew git --without-completions
+brew git 
 brew glib
 brew gmp
 brew gnu-getopt
-brew gnutls
 brew go
 brew gobject-introspection
-brew graphite2
 brew graphviz
 brew grep
 brew gts
-brew guile
 brew harfbuzz
 brew hub
 brew hugo
 brew icu4c
-brew ilmbase
 brew imagemagick
 brew jasper
 brew jbig2dec
-brew jemalloc
 brew jenkins
 brew jpeg
 brew jq
 brew lame
-brew leptonica
-brew libass
-brew libbluray
-brew libde265
-brew libev
 brew libevent
 brew libffi
-brew libheif
-brew libidn2
-brew liblqr
-brew libogg
-brew libomp
 brew libpng
-brew libpthread-stubs
-brew librsvg
-brew libsamplerate
-brew libsndfile
 brew libsodium
-brew libsoxr
-brew libspiro
-brew libtasn1
 brew libtiff
 brew libtool
-brew libuninameslist
-brew libunistring
-brew libuv
-brew libvidstab
-brew libvorbis
-brew libvpx
-brew libx11
-brew libxau
-brew libxcb
-brew libxdmcp
-brew libxext
 brew libxml2
-brew libxrender
 brew libyaml
 brew little-cms2
 brew lua
 brew luajit
-brew lz4
-brew lzo
-brew m4
 brew mas
 brew mcrypt
 brew mecab
@@ -130,63 +82,41 @@ brew mecab-ipadic
 brew memcached
 brew mercurial
 brew mhash
-brew mpdecimal
 brew mpfr
 brew ncurses
 brew netpbm
-brew nettle
-brew nghttp2
 brew nkf
+#brew node --with-full-icu
 brew node
 brew nodebrew
 brew oniguruma
-brew opencore-amr
-brew openexr
-brew openjdk
-brew openjdk@11
-brew openjpeg
 brew openssl@1.1
-brew opus
-brew p11-kit
 brew pango
 brew pcre
-brew pcre2
 brew peco
 brew perl
 brew pixman
 brew pkg-config
-brew python@3.9
-brew rav1e
 brew rbenv
 brew rbenv-gemset
 brew re2c
 brew readline
-brew reattach-to-user-namespace
+#brew reattach-to-user-namespace --with-wrap-pbcopy-and-pbpaste
+brew reattach-to-user-namespace 
 brew redis
 brew rrdtool
-brew rubberband
 brew ruby
 brew ruby-build
 brew scons
-brew sdl2
-brew shared-mime-info
 brew shellcheck
-brew snappy
-brew source-highlight
-brew speex
 brew sqlite
-brew srt
 brew ssh-copy-id
 brew subversion
-brew subversion@1.8
 brew terminal-notifier
-brew tesseract
 brew the_silver_searcher
-brew theora
 brew tig
 brew tmux
 brew tree
-brew unbound
 brew unixodbc
 brew utf8proc
 brew v8
@@ -194,34 +124,65 @@ brew vim
 brew webp
 brew wget
 brew x264
-brew x265
 brew xmlto
-brew xorgproto
 brew xvid
 brew xz
 brew zeromq
-brew zimg
 brew zlib
-brew zsh
+#brew zsh --without-etcdir
+brew zsh 
 brew zsh-completions
 brew zsh-syntax-highlighting
-brew zstd
+
+#tap homebrew/boneyard
 
 tap homebrew/bundle
 
+#tap homebrew/completions
+#tap homebrew/dupes
+#tap homebrew/php
+#tap homebrew/versions
+tap homebrew/homebrew-core
+
+tap argon/mas
+
+#tap caskroom/cask
+tap homebrew/cask
+
+#tap caskroom/versions
 tap homebrew/cask-versions
 
-tap homebrew/cask
+tap rcmdnk/file
+brew brew-file
+
+tap sanemat/font
+#brew ricty --powerline --vim-powerline
+brew ricty --with-powerline
+
+# Other Homebrew packages
+brew android-ndk
+brew android-sdk
+#brew apple-gcc42
+#brew mongodb
+#brew mysql@5.5
+brew openssl
+#brew php-build --HEAD
+#brew php71
+#brew php71-redis
+#brew powerline
+#brew python
+brew subversion18
+
+# Other Cask applications
 cask adobe-air
 cask airdroid
 cask alfred
-cask android-ndk
-cask android-sdk
 cask appcleaner
 cask atom
 cask bartender
 cask bettertouchtool
 cask box-sync
+#cask boxer
 cask burn
 cask caffeine
 cask cheatsheet
@@ -233,7 +194,9 @@ cask dropbox
 cask eclipse-java
 cask eclipse-php
 cask evernote
+#cask filezilla
 cask firefox
+#cask flashlight
 cask fluid
 cask genymotion
 cask gimp
@@ -246,12 +209,19 @@ cask inkscape
 cask ios-console
 cask istat-menus
 cask iterm2
+#cask java
+#cask java7
+#cask karabiner
 cask licecap
+#cask medis
 cask messenger
 cask mplayerx
+#cask mysimbl
 cask mysqlworkbench
 cask onyx
+#cask p4merge
 cask postico
+#cask rdm
 cask remote-desktop-manager
 cask scapple
 cask sequel-pro
@@ -266,32 +236,28 @@ cask svnx
 cask texturepacker
 cask the-unarchiver
 cask timemachineeditor
+#cask totalfinder
+#cask totalspaces
 cask vagrant
 cask virtualbox
 cask visual-studio-code
+#cask wineskin-winery
 cask wireshark
 cask x-mirage
 cask xquartz
 
-tap argon/mas
-
-tap rcmdnk/file
-brew brew-file
-
-tap sanemat/font
-brew ricty --with-powerline
-
 # App Store applications
-appstore 443987910 1Password (6.8.9)
-appstore 726828968 Astro (1.137)
-appstore 460883588 ATOK Pad (2.0.7)
-appstore 415181149 Calendars (3.0)
-appstore 478570084 CompareMerge (2.18)
-appstore 411643860 DaisyDisk (4.12.1)
-appstore 642220194 DeskConnect (1.2.2)
-appstore 408981434 iMovie (10.2.3)
-appstore 409183694 Keynote (11.0.1)
-appstore 539883307 LINE (6.7.2)
-appstore 409203825 Numbers (11.0)
-appstore 409201541 Pages (11.0)
-appstore 1176895641 Spark (2.9.22)
+appstore 443987910 1Password (6.5.3)
+#appstore 726828968 Astro (1.137)
+#appstore 460883588 ATOKPad (2.0.7)
+appstore 415181149 CalendarFree (2.1.1)
+appstore 478570084 CompareMerge (1.86)
+appstore 411643860 DaisyDisk (4.3.2)
+#appstore 467939042 Growl (2.1.3)
+appstore 408981434 iMovie (10.1.4)
+appstore 409183694 Keynote (7.0.5)
+appstore 539883307 LINE (4.11.1)
+appstore 409203825 Numbers (4.0.5)
+appstore 409201541 Pages (6.0.5)
+appstore 1176895641 Spark (1.1.0)
+#appstore 497799835 Xcode (8.2.1)
